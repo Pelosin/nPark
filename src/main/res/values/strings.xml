@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HomeApp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTAR</string>
+    <string name="nome">Nome(OPCIONAL)</string>
+    <string name="matricula">Matrícula(OBRIGATÓRIO)</string>
+    <string name="morada">Morada(OPCIONAL)</string>
+    <string name="cartao_credito">Cartão de crédito</string>
+    <string name="title_activity_main_menu">MainActivity</string>
+    <string name="title_home">Início</string>
+    <string name="title_dashboard">Perfil</string>
+    <string name="title_notifications">Notificações</string>
+</resources>

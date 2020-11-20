@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterWin"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/matricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/matricula"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/morada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/morada"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/cartaodecredito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cartao_credito"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textColorHint="@color/white" />
+
+
+</LinearLayout>
